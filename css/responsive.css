@@ -1,0 +1,44 @@
+/* sm */
+@media(min-width:576px){
+    .navtop input{
+        width: 500px;
+    }
+
+}
+/* md */
+@media(min-width:768px){
+    .navtop input{
+        width: 500px;
+    }
+
+}
+/* lg */
+@media(min-width:992px){
+    .navtop input{
+        width: 654px;
+    }
+    nav .wrapper{
+        padding: 0px !important;
+    }
+    nav .wrapper .hamburger{
+        display: none;
+    }
+    nav .menubox{
+        width: 100%;
+        position:static !important;
+        display: flex;
+        flex-wrap: nowrap;
+        background-color: transparent;
+    }
+    nav .menubox li a{
+        color: #fff;
+    }
+}
+/* xl */
+@media(min-width:1200px){
+
+}
+/* xxl */
+@media(min-width:1400px){
+
+}

@@ -1,0 +1,113 @@
+/* Default */
+@font-face {
+    font-family:Helvetica ;
+    src: url(../font/Helvetica.ttf);
+}
+:root{
+    --helvetica: Halvetica;
+    --roboto: "Roboto", sans-serif;
+
+    --color-1: #0f1016;
+    --white: #f0f0f0;
+    --accent-color: #006aff;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+/* NavTop */
+.navtop .brand img{
+    height: 58px;
+    width: auto;
+}
+.navtop input{
+    border: 1px solid #e1e5eb;
+    border-radius: 2px;
+    max-width: 654px;
+    height: 38px;
+    background: #fff;
+    font-family: HalHelvetica;
+    outline: 0;
+}
+.navtop .search_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #a2d056;
+    border-radius: 2px;
+    width: 44px;
+    height: 38px;
+}
+.navtop .search_icon{
+    color: var(--white);
+}
+/* Navbar */
+nav{
+  background-color: #0285b9;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+nav .wrapper{
+    padding: 10px 0px !important;
+}
+nav .wrapper .hamburger{
+    border: 1px solid #fff;
+    background: transparent;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 20px;
+    border-radius: 3px;
+}
+nav .wrapper .hamburger i{
+    color: #fff;
+    font-size: 16px;
+}
+nav .menubox{
+    position: fixed;
+    top: 0;
+    left: -100%;
+    z-index: 10;
+    width: 350px;
+    height: 100%;
+    background-color: #f7f7f7;
+    -webkit-box-shadow: 0 10px 30px 0 rgba(255,165,0,0);
+    box-shadow: 0 10px 30px 0 rgba(255,165,0,0);
+    transition: left .6s cubic-bezier(.6,.1,.68,.53);
+}
+nav .menubox.show{
+    left: 0;
+}
+nav .menubox li{
+    padding: 10px 40px;
+    border-right: 1px solid #fff;
+}
+nav .menubox li a{
+    color: var(--white);
+    font-family: var(--roboto);
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 187%;
+}
+nav .menubox .close{
+    background-color: transparent;
+    padding: 8px 8px 8px 8px;
+    margin: 12px 12px 12px 12px;
+    width: 45px;
+    border-radius: 3px;
+}
+nav .menubox li a{
+    color: #000000;
+    font-size: 14px;
+}
+nav .menubox li:last-child{
+    border-right: 0;
+}
