@@ -75,6 +75,9 @@
     nav .menubox li {
         padding: 10px 0px;
     }
+    nav .menubox li .dropdown li {
+        padding: 0px 0px;
+    }
     nav .menubox li span {
         padding: 0;
         border: none;
@@ -84,7 +87,7 @@
     nav .menubox li a {
         font-size: 14px;
         color: #fff;
-        padding: 14px 40px;
+        padding: 7px 40px;
     }
     
     
@@ -101,7 +104,6 @@
         visibility: visible;
         opacity: 1;
     }
-
     /* Bannar */
     .bannar .c-item {
         height: 310px;
@@ -109,7 +111,7 @@
     }
     /* accelerating */
     .accelerating .image img{
-        height: 100% !important;
+        height: 0% !important;
     }
     .accelerating .content h2 {
         margin-top: 0px;
