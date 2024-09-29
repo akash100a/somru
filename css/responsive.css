@@ -83,23 +83,30 @@
     .antibody .content p.tramss span {
         font-size: 14px;
     }
+    /* amplatto pages */
+    /* amplatto section */
+    .amplatto .title>h2 {
+        font-size: 30px;
+    }
 
 }
 
 /* lg */
 @media(min-width:992px) {
+    /* navtop section */
     .navtop input {
         width: 654px;
     }
-
+    
+    /* navbar section */
     nav .wrapper {
         padding: 0px !important;
     }
-
+    
     nav .wrapper .hamburger {
         display: none;
     }
-
+    
     nav .menubox {
         width: 100%;
         position: static !important;
@@ -107,60 +114,60 @@
         flex-wrap: nowrap;
         background-color: transparent;
     }
-
+    
     nav .menubox li {
         padding: 0px 0px;
     }
-
+    
     nav .menubox li .dropdown li {
         padding: 0px 0px;
     }
-
+    
     nav .menubox li span {
         padding: 0;
         border: none;
         position: static;
     }
-
+    
     nav .menubox>li>a {
         font-size: 14px;
         color: #fff;
         padding: 10px 40px;
     }
-
+    
     nav .dropdown {
         position: absolute !important;
         height: inherit;
         box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.5);
         border: 1px solid #dadada;
     }
-
+    
     nav .menubox .dropdown li a {
         padding: 5px 40px;
     }
-
+    
     nav .menubox li:hover .dropdown {
         top: 100%;
         visibility: visible;
         opacity: 1;
     }
-
+    
     /* Bannar */
     .bannar .c-item {
         height: 310px;
         width: 100%;
     }
-
+    
     /* accelerating */
     .accelerating .image img {
         height: 0% !important;
     }
-
+    
     .accelerating .content h2 {
         margin-top: 0px;
         font-size: 30px;
     }
-
+    
     .accelerating .content p {
         font-size: 13px;
     }
@@ -168,6 +175,7 @@
 
 /* xl */
 @media(min-width:1200px) {
+    /* accelerating section */
     .accelerating .image img {
         height: 200px !important;
     }
