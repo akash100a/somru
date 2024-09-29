@@ -1,44 +1,125 @@
 /* sm */
-@media(min-width:576px){
-    .navtop input{
+@media(min-width:576px) {
+    .navtop input {
         width: 500px;
     }
-
+    .accelerating .image img{
+        width: auto;
+        height: auto;
+    }
+    .accelerating .content h2 {
+        font-size: 27px;
+    }
 }
+
 /* md */
-@media(min-width:768px){
-    .navtop input{
+@media(min-width:768px) {
+    .navtop input {
         width: 500px;
     }
 
+    /* Bannar */
+    .bannar .c-item {
+        height: 280px;
+        width: 100%;
+    }
+    .bannar .carousel-caption {
+        left: 45px !important;
+    }
+    .bannar .carousel-caption h3 {
+        font-size: 20px;
+    }
+
+    .bannar .carousel-caption h2 {
+        font-size: 16px;
+        margin-top: 14px !important;
+    }
+
+    .bannar .carousel-caption button.btn-primary {
+        margin-top: 15px !important;
+        padding: 10px 12px;
+    }
+
+    /* accelerating .content */
+    .accelerating .content h2 {
+        font-size: 30px;
+    }
+    
+    .accelerating .content p {
+        padding: 22px 0 9px;
+    }
+
 }
+
 /* lg */
-@media(min-width:992px){
-    .navtop input{
+@media(min-width:992px) {
+    .navtop input {
         width: 654px;
     }
-    nav .wrapper{
+
+    nav .wrapper {
         padding: 0px !important;
     }
-    nav .wrapper .hamburger{
+
+    nav .wrapper .hamburger {
         display: none;
     }
-    nav .menubox{
+
+    nav .menubox {
         width: 100%;
-        position:static !important;
+        position: static !important;
         display: flex;
         flex-wrap: nowrap;
         background-color: transparent;
     }
-    nav .menubox li a{
+
+    nav .menubox li span {
+        padding: 0;
+        border: none;
+    }
+
+    nav .menubox li a {
+        font-size: 14px;
         color: #fff;
     }
+
+    nav .dropdown {
+        position: absolute !important;
+        height: inherit;
+        box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.5);
+        border: 1px solid #dadada;
+    }
+
+    nav .menubox li:hover .dropdown {
+        top: 100%;
+        visibility: visible;
+        opacity: 1;
+    }
+
+    /* Bannar */
+    .bannar .c-item {
+        height: 310px;
+        width: 100%;
+    }
+    /* accelerating */
+    .accelerating .image img{
+        height: 100% !important;
+    }
+    .accelerating .content h2 {
+        margin-top: 0px;
+        font-size: 30px;
+    }
+    .accelerating .content p {
+        font-size: 13px;
+    }
 }
+
 /* xl */
-@media(min-width:1200px){
-
+@media(min-width:1200px) {
+    .accelerating .image img{
+        height: 200px !important;
+    }
 }
+
 /* xxl */
-@media(min-width:1400px){
-
-}
+@media(min-width:1400px) {}
