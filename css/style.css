@@ -399,7 +399,7 @@ nav .menubox li.mainlink.show .dropdown {
     color: #fff;
 }
 
-/* footer */
+/* footer section */
 footer {
     padding: 50px 0 40px;
     background: #373a48;
@@ -580,7 +580,7 @@ footer .sec3 p {
     color: #3a3a3a;
 }
 
-.technology .title p{
+.technology .title p {
     margin-top: 25px;
     font-family: var(--font-family);
     font-weight: 400;
@@ -588,4 +588,84 @@ footer .sec3 p {
     line-height: 186%;
     color: #7a7a7a;
     max-width: 720px;
+}
+
+
+/* Amplatto Pages */
+/* Amplatto Section */
+.amplatto {
+    margin: 50px 0 60px;
+}
+
+.amplatto .wrapper {
+    max-width: 740px;
+}
+
+.amplatto h2 {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 120%;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.amplatto .image {
+    max-width: 740px;
+    height: 180px;
+    margin: 30px 0px;
+}
+
+.amplatto .image img {
+    height: 100%;
+    width: 100%;
+}
+.amplatto .title>h2 {
+    font-weight: 400;
+    /* font-size: 30px; */
+    font-size: 22px;
+    line-height: 130%;
+    color: #333;
+}
+.amplatto .title > p{
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 169%;
+    color: #333;
+}
+.amplatto .title2 > h4{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 169%;
+    color: #333;
+}
+.amplatto .title2 > h4 span{
+    font-weight: 700;
+}
+.amplatto .title2 > p{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 169%;
+    color: #333;
+    margin: 22px 0px;
+}
+.amplatto .title3{
+    padding-left: 40px;
+}
+.amplatto .title3 > p{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 169%;
+    color: #333;
+    margin: 5px 0px;
+}
+.amplatto .title3 > p span{
+    font-weight: 700;
+}
+.amplatto .title4 > p {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 169%;
+    color: #333;
+    margin: 16px;
 }
