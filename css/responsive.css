@@ -31,6 +31,7 @@
         background-color: transparent;
     }
     nav .menubox li a{
+        font-size: 14px;
         color: #fff;
     }
 }

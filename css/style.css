@@ -3,17 +3,10 @@
     font-family:Helvetica ;
     src: url(../font/Helvetica.ttf);
 }
-:root{
-    --helvetica: Halvetica;
-    --roboto: "Roboto", sans-serif;
-
-    --color-1: #0f1016;
-    --white: #f0f0f0;
-    --accent-color: #006aff;
-}
 *{
     margin: 0;
     padding: 0;
+    font-family: "Roboto", sans-serif;
 }
 a{
     text-decoration: none;
@@ -32,7 +25,7 @@ li{
     max-width: 654px;
     height: 38px;
     background: #fff;
-    font-family: HalHelvetica;
+    font-family: Helvetica;
     outline: 0;
 }
 .navtop .search_icon{
@@ -45,7 +38,7 @@ li{
     height: 38px;
 }
 .navtop .search_icon{
-    color: var(--white);
+    color: #fff;
 }
 /* Navbar */
 nav{
@@ -91,8 +84,8 @@ nav .menubox li{
     border-right: 1px solid #fff;
 }
 nav .menubox li a{
-    color: var(--white);
-    font-family: var(--roboto);
+    color: #000000;
+    font-family: "Roboto", sans-serif;
     font-weight: 600;
     font-size: 13px;
     line-height: 187%;
@@ -104,10 +97,9 @@ nav .menubox .close{
     width: 45px;
     border-radius: 3px;
 }
-nav .menubox li a{
-    color: #000000;
-    font-size: 14px;
-}
 nav .menubox li:last-child{
     border-right: 0;
+}
+nav .dropdown{
+    min-width: 220px;
 }
