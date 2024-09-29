@@ -72,16 +72,22 @@
         flex-wrap: nowrap;
         background-color: transparent;
     }
-
+    nav .menubox li {
+        padding: 10px 0px;
+    }
     nav .menubox li span {
         padding: 0;
         border: none;
+        position: static;
     }
 
     nav .menubox li a {
         font-size: 14px;
         color: #fff;
+        padding: 14px 40px;
     }
+    
+    
 
     nav .dropdown {
         position: absolute !important;
