@@ -3,12 +3,25 @@
     .navtop input {
         width: 500px;
     }
-    .accelerating .image img{
+
+    .accelerating .image img {
         width: auto;
         height: auto;
     }
+
     .accelerating .content h2 {
         font-size: 27px;
+    }
+
+    /* Antibody Page */
+    /* Antibody */
+    .antibody .content p {
+        font-size: 14px;
+    }
+
+    .antibody .content a {
+        padding: 20px 50px;
+        margin-left: 230px;
     }
 }
 
@@ -23,9 +36,11 @@
         height: 280px;
         width: 100%;
     }
+
     .bannar .carousel-caption {
         left: 45px !important;
     }
+
     .bannar .carousel-caption h3 {
         font-size: 20px;
     }
@@ -44,9 +59,29 @@
     .accelerating .content h2 {
         font-size: 30px;
     }
-    
+
     .accelerating .content p {
         padding: 22px 0 9px;
+    }
+
+    /* Product Page */
+    /* product */
+    .product h1 {
+        font-size: 40px;
+    }
+
+    /* Antibody Page */
+    /* Antibody */
+    .antibody .content h2 {
+        font-size: 35px;
+    }
+
+    .antibody .content p.tramss {
+        margin: 20px 0px 48px;
+    }
+
+    .antibody .content p.tramss span {
+        font-size: 14px;
     }
 
 }
@@ -72,25 +107,26 @@
         flex-wrap: nowrap;
         background-color: transparent;
     }
+
     nav .menubox li {
-        padding: 10px 0px;
+        padding: 0px 0px;
     }
+
     nav .menubox li .dropdown li {
         padding: 0px 0px;
     }
+
     nav .menubox li span {
         padding: 0;
         border: none;
         position: static;
     }
 
-    nav .menubox li a {
+    nav .menubox>li>a {
         font-size: 14px;
         color: #fff;
-        padding: 7px 40px;
+        padding: 10px 40px;
     }
-    
-    
 
     nav .dropdown {
         position: absolute !important;
@@ -99,24 +135,32 @@
         border: 1px solid #dadada;
     }
 
+    nav .menubox .dropdown li a {
+        padding: 5px 40px;
+    }
+
     nav .menubox li:hover .dropdown {
         top: 100%;
         visibility: visible;
         opacity: 1;
     }
+
     /* Bannar */
     .bannar .c-item {
         height: 310px;
         width: 100%;
     }
+
     /* accelerating */
-    .accelerating .image img{
+    .accelerating .image img {
         height: 0% !important;
     }
+
     .accelerating .content h2 {
         margin-top: 0px;
         font-size: 30px;
     }
+
     .accelerating .content p {
         font-size: 13px;
     }
@@ -124,7 +168,7 @@
 
 /* xl */
 @media(min-width:1200px) {
-    .accelerating .image img{
+    .accelerating .image img {
         height: 200px !important;
     }
 }
