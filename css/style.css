@@ -619,6 +619,7 @@ footer .sec3 p {
     height: 100%;
     width: 100%;
 }
+
 .amplatto .title>h2 {
     font-weight: 400;
     /* font-size: 30px; */
@@ -626,46 +627,248 @@ footer .sec3 p {
     line-height: 130%;
     color: #333;
 }
-.amplatto .title > p{
+
+.amplatto .title>p {
     margin-top: 16px;
     font-weight: 400;
     font-size: 13px;
     line-height: 169%;
     color: #333;
 }
-.amplatto .title2 > h4{
+
+.amplatto .title2>h4 {
     font-weight: 400;
     font-size: 13px;
     line-height: 169%;
     color: #333;
 }
-.amplatto .title2 > h4 span{
+
+.amplatto .title2>h4 span {
     font-weight: 700;
 }
-.amplatto .title2 > p{
+
+.amplatto .title2>p {
     font-weight: 400;
     font-size: 13px;
     line-height: 169%;
     color: #333;
     margin: 22px 0px;
 }
-.amplatto .title3{
+
+.amplatto .title3 {
     padding-left: 40px;
 }
-.amplatto .title3 > p{
+
+.amplatto .title3>p {
     font-size: 13px;
     font-weight: 400;
     line-height: 169%;
     color: #333;
     margin: 5px 0px;
 }
-.amplatto .title3 > p span{
+
+.amplatto .title3>p span {
     font-weight: 700;
 }
-.amplatto .title4 > p {
+
+.amplatto .title4>p {
     font-weight: 400;
     font-size: 13px;
     line-height: 169%;
     color: #333;
     margin: 16px;
+}
+
+/* About Page */
+/* About section */
+.aboutus {
+    /* margin: 50px 0 40px; */
+    margin: 35px 0 30px;
+}
+
+.aboutus .wrapper {
+    max-width: 740px;
+}
+
+.aboutus h1 {
+    font-weight: 400;
+    /* font-size: 40px; */
+    font-size: 30px;
+    line-height: 130%;
+    color: #333;
+}
+
+.aboutus h2 {
+    font-weight: 400;
+    /* font-size: 30px; */
+    font-size: 25px;
+    line-height: 130%;
+    color: #333;
+    margin: 30px 0 14px;
+}
+
+.aboutus p {
+    font-weight: 400;
+    /* font-size: 13px; */
+    font-size: 12px;
+    line-height: 169%;
+    color: #333;
+}
+
+.aboutus p.middle {
+    margin: 32px 0;
+}
+
+.aboutus .imagefield {
+    margin: 25px 0px;
+    border-radius: 20px;
+    /* width: 740px; */
+    height: 100px;
+    overflow: hidden;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.aboutus .imagefield.extra::after {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    background: #5CB9B37A;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.aboutus .imagefield:hover {
+    background: rgba(176, 188, 221, 0.25);
+    opacity: .8;
+}
+
+.aboutus .imagefield img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.aboutus .overlay {
+    left: 20px;
+    z-index: 3;
+}
+
+.aboutus .overlay h2 {
+    z-index: 3;
+    margin: 0;
+    font-weight: 400;
+    /* font-size: 30px; */
+    font-size: 20px;
+    line-height: 0%;
+    padding: 0;
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px 0 0 rgba(20, 4, 4, 0.92);
+}
+
+
+/* career pages */
+/* career section */
+.career {
+    margin: 40px 0px;
+}
+
+.career h1 {
+    margin-bottom: 22px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 120%;
+    color: #3a3a3a;
+}
+
+.search_section {
+    background: #eee;
+    max-width: 1200px;
+    padding: 16px;
+}
+
+.search_section .search_field {
+    /* flex-direction: row; */
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+.search_section .search_field input {
+    outline: none;
+    padding: 12px;
+    border: 1px solid #eaeaea;
+    border-radius: 2px;
+    /* width: 577px; */
+    width: 100%;
+    height: 41px;
+    background: #fafafa;
+}
+
+.search_section .searchbtn {
+    margin-top: 8px;
+}
+
+.search_section .searchbtn a {
+    background: #0170b9;
+    color: #fff;
+    border-radius: 2px;
+    width: 100%;
+    height: 45px;
+}
+
+.career .career_inner {
+    margin-top: 30px;
+    background: #fff;
+}
+
+.career .career_inner .row {
+    padding: 10px;
+}
+
+.career .career_inner .content1 .date {
+    background: #aad162;
+    width: 73px;
+    height: 74px;
+}
+
+.career .career_inner .content1>h3 {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 150%;
+    color: #3a3a3a;
+    padding-left: 42px;
+}
+
+.career .career_inner .content1 .date h3 {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 75%;
+    color: #fff;
+}
+
+.career .career_inner .content1 .date p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    color: #fff;
+}
+
+.career .career_inner .content2 p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    color: #999;
+    max-width: 260px;
+    margin-top: 0px;
+    margin-top: 10px;
+}
+
+.map {
+    height: 500px;
+}
+.map iframe{
+    max-width: 100%;
 }

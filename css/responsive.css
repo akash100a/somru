@@ -83,30 +83,75 @@
     .antibody .content p.tramss span {
         font-size: 14px;
     }
+
     /* amplatto pages */
     /* amplatto section */
     .amplatto .title>h2 {
         font-size: 30px;
     }
 
+    /* About Page */
+    /* About section */
+    .aboutus {
+        margin: 50px 0 40px;
+    }
+
+    .aboutus h1 {
+        font-size: 40px;
+    }
+
+    .aboutus h2 {
+        font-size: 30px;
+    }
+
+    .aboutus p {
+        font-size: 13px;
+    }
+
+    .aboutus .overlay h2 {
+        font-size: 30px;
+    }
+
+    /* career pages */
+    /* career section */
+    .career {
+        margin: 40px 0px;
+    }
+
+    .career h1 {
+        font-size: 30px;
+    }
+
+    .search_section .search_field {
+        /* flex-direction: row; */
+        /* row-gap: 8px; */
+    }
+
+    .search_section .search_field input {
+        /* width: 577px; */
+    }
+    .career .career_inner .content2 p {
+        margin-top: 0px;
+    }
 }
 
 /* lg */
 @media(min-width:992px) {
+
     /* navtop section */
     .navtop input {
         width: 654px;
     }
-    
+
     /* navbar section */
     nav .wrapper {
         padding: 0px !important;
     }
-    
+
     nav .wrapper .hamburger {
         display: none;
     }
-    
+
     nav .menubox {
         width: 100%;
         position: static !important;
@@ -114,67 +159,78 @@
         flex-wrap: nowrap;
         background-color: transparent;
     }
-    
+
     nav .menubox li {
         padding: 0px 0px;
     }
-    
+
     nav .menubox li .dropdown li {
         padding: 0px 0px;
     }
-    
+
     nav .menubox li span {
         padding: 0;
         border: none;
         position: static;
     }
-    
+
     nav .menubox>li>a {
         font-size: 14px;
         color: #fff;
         padding: 10px 40px;
     }
-    
+
     nav .dropdown {
         position: absolute !important;
         height: inherit;
         box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.5);
         border: 1px solid #dadada;
     }
-    
+
     nav .menubox .dropdown li a {
         padding: 5px 40px;
     }
-    
+
     nav .menubox li:hover .dropdown {
         top: 100%;
         visibility: visible;
         opacity: 1;
     }
-    
+
     /* Bannar */
     .bannar .c-item {
         height: 310px;
         width: 100%;
     }
-    
+
     /* accelerating */
     .accelerating .image img {
         height: 0% !important;
     }
-    
+
     .accelerating .content h2 {
         margin-top: 0px;
         font-size: 30px;
     }
-    
+
     .accelerating .content p {
         font-size: 13px;
+    }
+
+    /* career pages */
+    /* career section */
+    .search_section .search_field {
+        flex-direction: row;
+        column-gap: 8px;
+    }
+    .search_section .search_field input {
+        max-width: 577px;
     }
 }
 
 /* xl */
 @media(min-width:1200px) {
+
     /* accelerating section */
     .accelerating .image img {
         height: 200px !important;
