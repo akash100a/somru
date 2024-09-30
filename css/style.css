@@ -996,7 +996,8 @@ footer .sec3 p {
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     padding: 13px 0px 11px 0px;
 }
-.antibodydetails .result .wrapper .content3 h2 {
+.antibodydetails .result .wrapper .content3 a {
+    cursor: pointer;
     font-weight: 700;
     font-size: 14px;
     line-height: 130%;
