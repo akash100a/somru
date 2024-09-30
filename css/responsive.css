@@ -23,6 +23,12 @@
         padding: 20px 50px;
         margin-left: 230px;
     }
+
+    /* Contact Pages */
+    /* Contact Section */
+    .map {
+        height: 400px;
+    }
 }
 
 /* md */
@@ -122,16 +128,14 @@
         font-size: 30px;
     }
 
-    .search_section .search_field {
-        /* flex-direction: row; */
-        /* row-gap: 8px; */
-    }
-
-    .search_section .search_field input {
-        /* width: 577px; */
-    }
     .career .career_inner .content2 p {
         margin-top: 0px;
+    }
+
+    /* Contact Pages */
+    /* Contact Section */
+    .map {
+        height: 500px;
     }
 }
 
@@ -223,8 +227,27 @@
         flex-direction: row;
         column-gap: 8px;
     }
+
     .search_section .search_field input {
         max-width: 577px;
+    }
+
+    /* Contact Pages */
+    /* Contact Section */
+    .contact .contact_inner .title2 p.des {
+        font-size: 16px;
+    }
+    .contact .contact_inner .title2 .quotes .single {
+        min-width: inherit;
+    }
+    .contact .contact_inner .title2 .quotes h3 {
+        font-size: 16px;
+    }
+    .contact .contact_inner .title2 .quotes p {
+        font-size: 14px;
+    }
+    .contact .contact_form_section .contact_form  {
+        width: 786px;
     }
 }
 
