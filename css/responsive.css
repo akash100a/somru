@@ -143,6 +143,16 @@
     .antibodydetails .filter {
         flex-direction: row;
     }
+
+    /* ProductDetails Page */
+    /* ProductDetails Section*/
+    .productdetails .productcontwrapper h2 {
+        font-size: 30px;
+    }
+    .productdetails .productcontwrapper .table1 .right_side {
+        display: flex !important;
+    }
+
 }
 
 /* lg */
@@ -265,6 +275,18 @@
     .antibodydetails .content2 {
         width: 359px;
     }
+
+    /* ProductDetails Page */
+    /* ProductDetails Section*/
+    .productdetails .main {
+        flex-direction: row;
+    }
+
+    .productdetails .productimgwrapper {
+        width: 420px;
+        margin-top: 0px;
+    }
+
 }
 
 /* xl */
