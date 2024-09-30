@@ -134,8 +134,14 @@
 
     /* Contact Pages */
     /* Contact Section */
-    .map {
+    .contact .map {
         height: 500px;
+    }
+
+    /* Antibodt Details Page*/
+    /* Antibodt Details Section*/
+    .antibodydetails .filter {
+        flex-direction: row;
     }
 }
 
@@ -237,17 +243,27 @@
     .contact .contact_inner .title2 p.des {
         font-size: 16px;
     }
+
     .contact .contact_inner .title2 .quotes .single {
         min-width: inherit;
     }
+
     .contact .contact_inner .title2 .quotes h3 {
         font-size: 16px;
     }
+
     .contact .contact_inner .title2 .quotes p {
         font-size: 14px;
     }
-    .contact .contact_form_section .contact_form  {
+
+    .contact .contact_form_section .contact_form {
         width: 786px;
+    }
+
+    /* Antibodt Details Page*/
+    /* Antibodt Details Section*/
+    .antibodydetails .content2 {
+        width: 359px;
     }
 }
 
@@ -257,6 +273,12 @@
     /* accelerating section */
     .accelerating .image img {
         height: 200px !important;
+    }
+
+    /* Antibodt Details Page*/
+    /* Antibodt Details Section*/
+    .antibodydetails .result .wrapper .content3 {
+        width: 740px;
     }
 }
 
