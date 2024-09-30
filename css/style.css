@@ -1168,7 +1168,9 @@ footer .sec3 p {
     padding: 40px 0 50px;
 }
 
-.productdetails .main {}
+.productdetails .main {
+    /* flex-direction: column-reverse; */
+}
 
 .productdetails .productimgwrapper {
     width: 420px;
@@ -1216,13 +1218,34 @@ footer .sec3 p {
     margin-bottom: 5px;
 }
 
+.productdetails .productcontwrapper .table1 {
+    margin-bottom: 66px;
+}
+
+.productdetails .productcontwrapper .table1 .right_side {
+    width: 180px;
+}
+
+.productdetails .productcontwrapper .table1 .right_side img.iso {
+    width: 71px;
+    height: 71px;
+}
+
+.productdetails .productcontwrapper .table1 .right_side img.t {
+    margin-top: 25px;
+    width: 25px;
+    height: 25px;
+}
+
+.productdetails .productcontwrapper .table2 table,
 .productdetails .productcontwrapper .table1 table {
     border-top: 1px solid #e0e0e0;
     border-bottom: 1px solid #e0e0e0;
     width: 100%;
 }
 
-.productdetails .productcontwrapper .table1 table tr {
+.productdetails .productcontwrapper .table1 table tr,
+.productdetails .productcontwrapper .table2 table tr {
     border-bottom: 1px solid #e0e0e0;
 
 }
@@ -1244,4 +1267,39 @@ footer .sec3 p {
     color: #212121;
     background: #f1f8fe;
     padding: 15px 30px 9px 80px;
+}
+
+.productdetails .productcontwrapper .break p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #212121;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.productdetails .productcontwrapper .break p span {
+    color: #2196f3;
+}
+
+.productdetails .productcontwrapper .table2 table td,
+.productdetails .productcontwrapper .table2 table th {
+    border-right: 1px solid #e0e0e0;
+}
+.productdetails .productcontwrapper .table2 table th.stop,
+.productdetails .productcontwrapper .table2 table td.stop{
+    border-right: 0;
+
+}
+
+.productdetails .productcontwrapper .table2 table th{
+    background: #f1f8fe;
+}
+.productdetails .productcontwrapper .table2 table th ,
+.productdetails .productcontwrapper .table2 table td {
+    padding: 10px 0 8px 38px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 157%;
+    color: #212121;
 }
