@@ -762,11 +762,19 @@ footer .sec3 p {
 /* contact pages */
 /* contact section */
 .contact {
-    margin: 20px 0;
+    margin: 40px 0;
 }
 .contact .title {
+    /* WIDTH */
+    /* max-width: 786px; */
     padding: 30px 0 50px;
     background: linear-gradient(180deg, #4481a8 0%, #19bcc3 100%);
+}
+.contact h2.headings{
+    font-size: 25px;
+    margin-bottom: 30px;
+    font-weight: 500;
+    color: #3a3a3a;
 }
 .contact .title h2 {
     font-weight: 600;
@@ -932,7 +940,7 @@ footer .sec3 p {
     height: 300px;
 }
 .contact .map iframe {
-    max-width: 786px;
+    /* max-width: 786px; */
 }
 
 /* antibodydetails Page*/
