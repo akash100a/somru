@@ -1074,9 +1074,9 @@ footer .sec3 p {
     height: 300px;
 }
 
-.contact .map iframe {
-    /* max-width: 786px; */
-}
+/* .contact .map iframe {
+    max-width: 786px;
+} */
 
 /* antibodydetails Page*/
 /* antibodydetails Section*/
@@ -1089,8 +1089,8 @@ footer .sec3 p {
 }
 
 .antibodydetails .content1 h3 {
-    font-weight: 300;
-    font-size: 19px;
+    font-weight: 400;
+    font-size: 22px;
     line-height: 100%;
     color: #fff;
     background: #6e48a4;
@@ -1098,33 +1098,87 @@ footer .sec3 p {
 }
 
 .antibodydetails .content2 {
-    padding-bottom: 5px;
     width: 100%;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    /* padding-bottom: 5px; */
+    /* border-bottom: 1px solid rgba(0, 0, 0, 0.1); */
 }
 
 .antibodydetails .content2 h2 {
     margin-top: 10px;
     font-weight: 700;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 186%;
     text-transform: uppercase;
     color: #3a3a3a;
 }
-
-.antibodydetails .content1 .form-check input {
-    box-shadow: none;
-    border: 1px solid #767676;
-    border-radius: 2px;
-    cursor: pointer;
+.antibodydetails .content2 ul li a{
+    padding: 7px 0px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 106%;
+    color: #212121;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
 }
-
-.antibodydetails .content1 .form-check label {
+.antibodydetails .content2 ul li.dropli a{
     font-weight: 400;
-    font-size: 15px;
-    line-height: 186%;
-    color: #3a3a3a;
 }
+.antibodydetails .content2 ul li.dropli{
+    position: relative;
+}
+.antibodydetails .content2 ul li a span{
+    color: #bdbdbd;
+}
+.antibodydetails .content2 ul li.dropli ul.dropdown{
+    position: relative;
+    left: 10px;
+    top: 0;
+    visibility: hidden;
+    opacity: 0;
+    height: 0;
+    transition: all .3s ease-in-out;
+}
+.antibodydetails .content2 ul li.dropli.show ul.dropdown{
+    visibility: visible;
+    opacity: 1;
+    height: 100%;
+}
+.antibodydetails .content2 ul li.dropli.show > a > span{
+    rotate: 180deg;
+}
+.antibodydetails .content2 ul li.dropli ul.dropdown li a{
+    font-weight: 500;
+    font-size: 15px;
+}
+.antibodydetails .content2 ul li.dropli ul.dropdown li.subdropli a{
+    font-weight: 400;
+}
+.antibodydetails .content2 ul li.dropli ul.dropdown li.subdropli a span{
+    margin-right: 10px;
+}
+.antibodydetails .content2 ul li.dropli ul.dropdown li.subdropli .sub_dropdown li a{
+    font-weight: 500;
+}
+.antibodydetails .content2 ul li.dropli ul.dropdown li .sub_dropdown{
+    position: relative;
+    left: 10px;
+    top: 0;
+    visibility: hidden;
+    opacity: 0;
+    height: 0;
+    transition: all .3s ease-in-out;
+}
+.antibodydetails .content2 ul li.dropli ul.dropdown li.subshow a span{
+    rotate: 180deg;
+}
+.antibodydetails .content2 ul li.dropli ul.dropdown li.subshow .sub_dropdown{
+    visibility: visible;
+    opacity: 1;
+    height: 100%;
+}
+
+
 
 .antibodydetails .result p.reshead {
     font-weight: 400;
