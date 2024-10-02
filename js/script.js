@@ -22,10 +22,6 @@ let menubox = document.querySelector(".menubox");
 action(hamburger,menubox,"add");
 action(closes,menubox,"remove");
 
-let allLink = document.querySelectorAll(".mainlink"); 
-console.log(allLink);
-
-
 down.forEach((item)=>{
     item.addEventListener("click",(event)=>{
         event.preventDefault();
@@ -37,3 +33,36 @@ down.forEach((item)=>{
         
     })
 })
+
+//antibody details page
+let dropli = document.querySelectorAll(".dropli a");
+dropli.forEach((item)=>{
+    item.addEventListener("click",(event)=>{
+        console.log("click");
+        
+        event.preventDefault();
+        if(item.parentElement.classList.contains("show")){
+            item.parentElement.classList.remove("show");
+        }else{
+            item.parentElement.classList.add("show");
+        }
+        
+    })
+})
+
+//antibody details page
+let subdropli = document.querySelectorAll(".subdropli a");
+subdropli.forEach((item)=>{
+    item.addEventListener("click",(event)=>{
+        console.log("click");
+        
+        event.preventDefault();
+        if(item.parentElement.classList.contains("subshow")){
+            item.parentElement.classList.remove("subshow");
+        }else{
+            item.parentElement.classList.add("subshow");
+        }
+        
+    })
+})
+
